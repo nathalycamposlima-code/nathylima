@@ -13,17 +13,17 @@ width: 100%;
 padding: 20px;
 }
 .cabecalho-itens{
-max-width: 80px;
+max-width: 60px;
 margin: 0 auto;
 display: flex;
-align-items: center;
-justify-content: center;
+align-items: left;
+justify-content: left;
 }
 .cabecalho-imagem{
-width: 1%;
+width: 3%;
 display: flex;
 justify-content: flex-start;
-align-items: center;
+align-items: left;
 }
 .titulo_site{
 padding: 50px;
