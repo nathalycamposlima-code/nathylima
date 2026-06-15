@@ -12,31 +12,37 @@ color: white;
 width: 10%;
 padding: 20px;
 }
-.cabecalho-itens{
-max-width: 30px;
-margin: 0 auto;
-display: flex;
-align-items: right;
-justify-content: right;
+.cabecalho-itens {
+  max-width: 1200px; /* Aumentado de 30px para dar espaço aos elementos na tela */
+  margin: 0 auto;
+  display: flex;
+  align-items: center; /* Alinha verticalmente no centro */
+  justify-content: space-between; /* Distribui os 3 blocos proporcionalmente */
+  width: 100%;
 }
-.cabecalho-imagem{
-width: 5%;
-display: flex;
-justify-content: flex-start;
-align-items: right;
+
+.cabecalho-imagem {
+  width: 5%; /* Agora funciona porque o nome da classe bate com o HTML */
+  height: auto; /* Mantém a proporção da imagem sem distorcer */
 }
-.titulo_site{
-padding: 50px;
-text-align: center;
-width: 50%;
-font: 30px;
+
+.titulo_site {
+  padding: 20px; /* Reduzido o padding para não quebrar a linha */
+  text-align: center;
+  width: 50%;
+  font-size: 30px; /* Corrigido de "font" para "font-size" */
 }
-.sociais{
-display: flex;
-justify-content: flex-end;
-width: 25%;
-padding-right: 30px;
+
+.sociais {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  gap: 15px; /* Cria um espaçamento uniforme entre os ícones sociais */
 }
+
+
+
 .banner1{
 display: flex;
 justify-content: center;
