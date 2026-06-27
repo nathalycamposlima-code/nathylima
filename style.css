@@ -9,7 +9,7 @@ font-family: "Poppins", sans-serif;
 header{
 background-color: #000000;
 color: white;
-width: 10%;
+width: 100%;
 padding: 20px;
 }
 .cabecalho-itens {
@@ -37,8 +37,8 @@ padding: 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 25%;
-  gap: 15px; /* Cria um espaçamento uniforme entre os ícones sociais */
+  width: 28%;
+  gap: 12px; /* Cria um espaçamento uniforme entre os ícones sociais */
 }
 
 
