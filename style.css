@@ -29,9 +29,9 @@ padding: 20px;
 }
 
 .titulo_site {
-  padding: 20px; /* Reduzido o padding para não quebrar a linha */
+  padding: 0; /* Reduzido o padding para não quebrar a linha */
   text-align: center;
-  width: 50%;
+  flex: 1;
   font-size: 30px; /* Corrigido de "font" para "font-size" */
 }
 
