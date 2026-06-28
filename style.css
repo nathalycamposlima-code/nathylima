@@ -22,8 +22,10 @@ padding: 20px;
 }
 
 .cabecalho-imagem {
-  width: 5%; /* Agora funciona porque o nome da classe bate com o HTML */
-  height: auto; /* Mantém a proporção da imagem sem distorcer */
+  width: 60px; /* Agora funciona porque o nome da classe bate com o HTML */
+  height: 60px; /* Mantém a proporção da imagem sem distorcer */
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .titulo_site {
@@ -39,6 +41,11 @@ padding: 20px;
   align-items: center;
   width: 28px;
   gap: 12px; /* Cria um espaçamento uniforme entre os ícones sociais */
+}
+
+.sociais img {
+  width: 28px;
+  height: 28px;
 }
 
 
