@@ -105,3 +105,14 @@ padding: 12px 0;
 color: #ffffff;
 text-decoration: none;
 }
+
+.bio {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.bio p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
