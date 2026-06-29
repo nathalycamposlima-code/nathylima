@@ -53,11 +53,13 @@ padding: 20px;
 .banner1{
 display: flex;
 justify-content: center;
+align-items: center;
+padding: 60px 20px;
 }
+
 .estudante_titulo{
 padding: 50px;
 text-align: center;
-
 }
 .estudante-nome{
 text-align: center;
