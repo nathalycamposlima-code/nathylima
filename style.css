@@ -54,9 +54,13 @@ justify-content: center;
 align-items: center;
 }
 
-.mj-imagem img {
+.banner1 img {
 display: block;
 margin: 0 auto;
+}
+
+.banner1 img {
+  width: 300px; /* ou ajusta conforme seu Canva */
 }
 
 .estudante_titulo{
