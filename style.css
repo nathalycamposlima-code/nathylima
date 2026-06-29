@@ -48,13 +48,15 @@ padding: 20px;
   height: 28px;
 }
 
-
-
-.banner1{
+.banner1 {
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 60px 20px;
+}
+
+.mj-imagem img {
+display: block;
+margin: 0 auto;
 }
 
 .estudante_titulo{
