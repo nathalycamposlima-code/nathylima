@@ -25,7 +25,7 @@ padding: 20px;
   width: 60px; /* Agora funciona porque o nome da classe bate com o HTML */
   height: 60px; /* Mantém a proporção da imagem sem distorcer */
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: center;
 }
 
 .titulo_site {
