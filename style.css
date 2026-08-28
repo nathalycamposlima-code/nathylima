@@ -48,18 +48,18 @@ padding: 20px;
   height: 28px;
 }
 
-.banner1 {
+.banner2 {
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
-.banner1 img {
+.banner2 img {
 display: block;
 margin: 0 auto;
 }
 
-.banner1 img {
+.banner2 img {
   width: 300px; /* ou ajusta conforme seu Canva */
 }
 
