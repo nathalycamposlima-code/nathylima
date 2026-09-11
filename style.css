@@ -7,65 +7,44 @@ body{
 font-family: "Poppins", sans-serif;
 }
 header{
-background-color: #000000;
+background-color: #424e61;
 color: white;
 width: 100%;
 padding: 20px;
 }
-.cabecalho-itens {
-  max-width: 1200px; /* Aumentado de 30px para dar espaço aos elementos na tela */
-  margin: 0 auto;
-  display: flex;
-  align-items: center; /* Alinha verticalmente no centro */
-  justify-content: space-between; /* Distribui os 3 blocos proporcionalmente */
-  width: 100%;
-}
-
-.cabecalho-imagem {
-  width: 60px; /* Agora funciona porque o nome da classe bate com o HTML */
-  height: 60px; /* Mantém a proporção da imagem sem distorcer */
-  border-radius: 50%;
-  object-fit: center;
-}
-
-.titulo_site {
-  padding: 0; /* Reduzido o padding para não quebrar a linha */
-  text-align: center;
-  flex: 1;
-  font-size: 30px; /* Corrigido de "font" para "font-size" */
-}
-
-.sociais {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 28px;
-  gap: 12px; /* Cria um espaçamento uniforme entre os ícones sociais */
-}
-
-.sociais img {
-  width: 28px;
-  height: 28px;
-}
-
-.banner2 {
+.cabecalho-itens{
+max-width: 1980px;
+margin: 0 auto;
 display: flex;
+align-items: center;
 justify-content: center;
+}
+.cabecalho-imagem{
+width: 10%;
+display: flex;
+justify-content: flex-start;
 align-items: center;
 }
-
-.banner2 img {
-display: block;
-margin: 0 auto;
+.titulo_site{
+padding: 50px;
+text-align: center;
+width: 50%;
+font: 30px;
 }
-
-.banner2 img {
-  width: 300px; /* ou ajusta conforme seu Canva */
+.sociais{
+display: flex;
+justify-content: flex-end;
+width: 25%;
+padding-right: 30px;
 }
-
+.banner1{
+display: flex;
+justify-content: center;
+}
 .estudante_titulo{
 padding: 50px;
 text-align: center;
+
 }
 .estudante-nome{
 text-align: center;
@@ -78,7 +57,7 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#111844);
+background-image: background-color(#faae43);
 padding: 24px 0;
 }
 
@@ -91,7 +70,7 @@ display: flex;
 justify-content: space-around;
 }
 .escola{
-background-image: linear-gradient(#000000, #272829);
+background-image: linear-gradient(#40A2E3,#7FC2EF);
 color: white;
 display: flex;
 justify-content:center;
@@ -113,14 +92,3 @@ padding: 12px 0;
 color: #ffffff;
 text-decoration: none;
 }
-
-.bio {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.bio p {
-  max-width: 600px;
-  margin: 0 auto;
-  line-height: 1.6;
-  }
